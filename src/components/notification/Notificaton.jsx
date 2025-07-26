@@ -5,7 +5,11 @@ const Notification = () => {
 
     return(
         <div className=''>
-            <ToastContainer position="bottom-right"/>
+            <ToastContainer 
+                position="bottom-right"
+                limit={3}
+                toastClassName="!w-[300px] !max-w-full !overflow-hidden"
+                />
         </div>
     )
 }

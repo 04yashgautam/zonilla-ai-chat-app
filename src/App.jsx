@@ -6,7 +6,7 @@ import Notification from "./components/notification/Notificaton"
 
 const App = () => {
 
-  const user = false
+  const user = true;
 
   return (
     <div className='container'>
@@ -21,7 +21,6 @@ const App = () => {
         )}
 
         <Notification/>
-
     </div>
   )
 }

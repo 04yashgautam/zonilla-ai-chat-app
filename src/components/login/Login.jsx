@@ -1,5 +1,6 @@
 import "./login.css"
 import { useState } from "react"
+import { toast } from 'react-toastify';
 
 
 const Login = () => {
@@ -20,9 +21,7 @@ const Login = () => {
 
     const handleLogin = e =>{
         e.preventDefault()
-        toast.warn("Hello");
-        
-
+        toast.success("Login successful!");
     }
 
 
