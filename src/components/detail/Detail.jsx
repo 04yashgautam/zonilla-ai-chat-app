@@ -10,15 +10,18 @@ const Detail = () => {
         </div>
         
         <div className="info">
-
-
             <div className="option">
                 <div className="title">
                     <span>Chat Settings</span>
                     <img src="./arrowUp.png" alt="" />
                 </div>
             </div>
-
+            <div className="option">
+                <div className="title">
+                    <span>Privacy % help</span>
+                    <img src="./arrowUp.png" alt="" />
+                </div>
+            </div>
             <div className="option">
                 <div className="title">
                     <span>Shared Photos</span>
@@ -26,34 +29,54 @@ const Detail = () => {
                 </div>
                 <div className="photos">
                     <div className="photoItem">
-                        <img src="./bg.jpg" alt="" />
-                        <span>photo_2020.png</span>
+                        <div className="photoDetail">
+                            <img 
+                                src="./black.jpeg" 
+                                alt="" 
+                            />
+                            <span>photo_2020.png</span>
+                        </div>
+                        <img src="./download.png" alt="" className="icon"/>
                     </div>
-                    <img src="./download.png" alt="" />
+                    <div className="photoItem">
+                        <div className="photoDetail">
+                            <img 
+                                src="./black.jpeg" 
+                                alt="" 
+                            />
+                            <span>photo_2020.png</span>
+                    </div>
+                        <img src="./download.png" alt="" className="icon"/>
+                    </div><div className="photoItem">
+                        <div className="photoDetail">
+                            <img 
+                                src="./black.jpeg" 
+                                alt="" 
+                            />
+                            <span>photo_2020.png</span>
+                        </div>
+                        <img src="./download.png" alt="" className="icon"/>
+                    </div><div className="photoItem">
+                        <div className="photoDetail">
+                            <img 
+                                src="./black.jpeg" 
+                                alt="" 
+                            />
+                            <span>photo_2020.png</span>
+                        </div>
+                        <img src="./download.png" alt="" className="icon"/>
+                    </div>
                 </div>
-            </div>
 
+            </div>
             <div className="option">
                 <div className="title">
-                    <span>Chat Settings</span>
+                    <span>Shared Files</span>
                     <img src="./arrowUp.png" alt="" />
                 </div>
             </div>
-
-            <div className="option">
-                <div className="title">
-                    <span>Chat Settings</span>
-                    <img src="./arrowUp.png" alt="" />
-                </div>
-            </div>
-
-            <div className="option">
-                <div className="title">
-                    <span>Chat Settings</span>
-                    <img src="./arrowUp.png" alt="" />
-                </div>
-            </div>   
-
+            <button>Block User</button>
+            <button className="logout">Logout</button>
         </div>
     </div>
   );
