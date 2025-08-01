@@ -1,1 +1,1 @@
-# Zonilla ; AI-Integrate Chat App
+# Zonilla ; AI-Integrated Chat App
