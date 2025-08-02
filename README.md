@@ -3,7 +3,7 @@
 ![React](https://img.shields.io/badge/React-17.x-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.10x-cyan.svg)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas_or_Local-green.svg)
-![Status](https://img.shields.io/badge/Status-Inactive-red)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 
 Zonilla AI Chat App is a full-stack conversational AI application that enables users to chat with an intelligent assistant. It features a **React** frontend, **FastAPI** backend, and **MongoDB** for persisting conversation history and user data.
 
@@ -173,4 +173,5 @@ Licensed under the **MIT License**.
 ⭐ If you find this useful, please star the repo!
 
 ---
+
 
